@@ -4,7 +4,7 @@ const WORK_MIN = 25;
 const SHORT_BREAK_MIN = 5;
 const LONG_BREAK_MIN = 25;
 
-const SECOND = 2;
+const SECOND = 1000;
 
 export const usePomodoro = () => {
   const title = ref('Timer');
